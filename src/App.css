@@ -1,0 +1,21 @@
+.container {
+  margin: 0px auto;
+  padding: 40px 24px;
+  max-width: 1392px;
+  min-height: calc(100vh - 80px);
+}
+
+.page-title {
+  margin: 0 0 16px 0;
+}
+
+.weather-info-container {
+  display: flex;
+  flex-direction: row;
+}
+
+@media only screen and (max-width: 800px) {
+  .weather-info-container {
+    flex-direction: column;
+  }
+}
